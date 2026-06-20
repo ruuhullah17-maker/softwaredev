@@ -7,4 +7,4 @@ app = FastAPI()
 app.include_router(activities, prefix="/new")
 @app.get("/")
 def main():
-    return "hello from the homepage"
+    return "greetings from the homepage"
